@@ -1,7 +1,7 @@
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  font: 112.5%/1.45em georgia, serif, sans-serif;
+  font: 112.5%/1.45em Dancing Script, cursive;
   box-sizing: border-box;
   overflow-y: scroll;
 }
@@ -10,7 +10,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: georgia, serif;
+  font-family: Dancing Script, cursive;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -76,18 +76,49 @@ h1 {
   margin-right: 0;
   margin-top: 0;
   padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
+  padding-left: auto;
+  padding-right: auto;
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Dancing Script, cursive;
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 2.25rem;
-  line-height: 1.1;
+ font-family: Dancing Script, cursive;
 }
+h2 .blue{margin-top:0.8em;}
+.bloc{
+  margin : 0 0.5em 0 0.5em;
+  padding-top:1em;
+}
+
+.gradient {
+  margin-top:2em;
+  background: linear-gradient(#ecdfd8, white);
+  height:0.5em;
+}
+
+.gradient2 {
+  margin-top:1em;
+  margin-bottom:1em;
+  background: linear-gradient( white,#ecdfd8);
+  height:0.5em;
+}
+.image
+{
+text-align:center;
+padding: 3em 0 1em 0;
+}
+.blue{
+  color: #008492;}
+.orange{
+  color: #ec6726;}
+.bordeau{
+    color: #a92120;}
+.center{
+    margin: auto;
+    text-align: center;
+  }
 mark {
   background-color: #ff0;
   color: #000;
@@ -260,12 +291,12 @@ h2 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Dancing Script, cursive;
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 1.62671rem;
+  font-size: 2em;
   line-height: 1.1;
+  
 }
 h3 {
   margin-left: 0;
@@ -277,11 +308,10 @@ h3 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Dancing Script, cursive;
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 1.38316rem;
+  font-size:3rem;
   line-height: 1.1;
 }
 h4 {
