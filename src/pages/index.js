@@ -7,6 +7,7 @@ import { HelmetDatoCms } from 'gatsby-source-datocms'
 
 const IndexPage = ({ data }) => 
 <h1>
+  coucou
   {data.allDatoCmsComingSoon.edges.node.titre}
 </h1>
 
