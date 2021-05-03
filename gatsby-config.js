@@ -4,7 +4,8 @@ module.exports = {
   siteMetadata: {
     title: `Coccinelles et compagnies`,
     titleTemplate: "Coccinelles et compagnies",
-    description: `site Coccinelles et compagnies`,
+    description: `Une boutique pour trouver des objets du quotidien traçables depuis la matière première, beaux, éthiques, durables.
+    Un atelier pour créer, partager, rêver, transmettre, fabriquer dans la joie ! `,
     url: "https://coccinellesetcompagnies.com",
     image: "public/static/e5f7a245a0404e09a019f884f84f454f/1dfc8/logo-titres.webp", // Path to your image you placed in the 'static' folder
     author: `Coccinelles et compagnies`, 
