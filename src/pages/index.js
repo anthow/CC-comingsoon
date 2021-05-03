@@ -2,9 +2,10 @@ import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import { Helmet } from "react-helmet"
 import Seo from "../components/seo"
-
+import Layout from"../components/layout"
 const IndexPage = () => (
 <>
+<Layout>
     <Seo title="Home" />
     <Helmet>
           <meta charSet="utf-8" />
@@ -32,6 +33,7 @@ const IndexPage = () => (
 <p></p></div>
 <hr class="gradient"></hr>
 <h3 class="bordeau center">Bientôt en ligne !</h3>
+</Layout>
 </>
 )
 
