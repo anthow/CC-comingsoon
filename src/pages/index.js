@@ -1,23 +1,31 @@
 import * as React from "react"
-import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
-
-import Layout from "../components/layout"
+import { Helmet } from "react-helmet"
 import Seo from "../components/seo"
 
 const IndexPage = () => (
 <>
     <Seo title="Home" />
+    <Helmet>
+          <meta charSet="utf-8" />
+          <title>Coccinelles et compagnies </title>
+          <link rel="canonical" href="http://coccinellesetcompagnies.com" />
+        </Helmet>
     <hr class="gradient2"></hr>
     <div class="bloc">  <h1 class="orange center">Un atelier pour créer, vivre et partager.</h1>
     <div class="image">
+      <figure>
     <StaticImage
       src="../images/logo-titres.svg"
-      width={500}
+      width={400}
       quality={100}
-      alt="A Gatsby astronaut"
+      alt="Logo Coccinelles et compagnies"
       style={{ marginBottom: `1.45rem` }}
-    /></div>
+
+    />
+     <figcaption class="hidden"> A  completer par une légende expliquant le logo du magasin</figcaption>
+    </figure>
+    </div>
 
 
 <h2 class="blue center">Une boutique d'objets éthiques et durables.</h2>
